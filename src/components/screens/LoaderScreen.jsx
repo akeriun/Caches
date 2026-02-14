@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 import { motion } from "framer-motion"
 
 export default function LoaderScreen({ onDone }) {
-    const [count, setCount] = useState(0)
+    const [count, setCount] = useState(600)
 
     useEffect(() => {
         const t = setInterval(() => {
